@@ -9,4 +9,7 @@ tarika h git branch _____________ koi bhi menagiful naam
 git branch 
 check krne ke lie ki kya hoga 
 agar dikahye 1 2 yaani us cocde me itti prblms h 
- abb n baat aati h merging ki hamne kya kia usko dia kissi aur ko unee kah ji sai h to ham krenge merge ab krdia jimerge hamne merge ke lie hame hona pdega main me dusre ke changes ko lana pdega fir then implimentation krngee fir ab ek baar ko conflict aa skta bas jse mne di branch ko tune kie usme change aur mne bhi krdie alag  change to vo puchega konsa change accept krna h tu btaaio ki ki ye purana ye nyaa ya dono accept krnee h 
+ abb n baat aati h merging ki hamne kya kia usko dia kissi aur ko unee kah ji sai h to ham krenge merge ab krdia jimerge hamne merge ke lie hame hona pdega main me dusre ke changes ko lana pdega fir then implimentation krngee fir ab ek baar ko conflict aa skta bas jse mne di branch ko tune kie usme change aur mne bhi krdie alag  change to vo puchega konsa change accept krna h tu btaaio ki ki ye purana ye nyaa ya dono accept krnee h
+ stashing mtlb kuch chnages h lekin commited ni to ukoo krna chate ho ya nai
+ aur for ka mtlb hua koi repo ko apni bnana fir uske codes use krna clone krke 
+ opensourse
