@@ -1,4 +1,3 @@
-// Online C++ compiler to run C++ program online
 #include <bits/stdc++.h>
 // #include<iostream>
 using namespace std;
@@ -27,10 +26,17 @@ void fun(int n ){
     fun(n-1);
     
 }
-
+void lineton(int i,int n){
+    // int i =0;
+    if (i>n)return;
+    cout<<i<<endl;
+    i++;
+    lineton(i,n);
+}
 int main() {
   cin>>n;
    fun(n);
+lineton(1,n);
 
     return 0;
 }
