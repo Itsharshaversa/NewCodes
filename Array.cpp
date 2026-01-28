@@ -1,7 +1,9 @@
-// Online C++ compiler to run C++ program online
 #include <bits/stdc++.h>
 using namespace std;
 
+
+
+// product of arr except itself 
 int Prod_of_arr_except_self(int arr[],int n){
     int pro=1;
     int zerocount=0;
@@ -38,25 +40,7 @@ int Prod_of_arr_except_self(int arr[],int n){
 
     return 0;
 }
-
-
-// product of arr except itself 
-
-
-
-
-// // Online C++ compiler to run C++ program online
-
-// #include <bits/stdc++.h>
-// using namespace std;
-
-
-
-// int main() {
-
-
-
-
+/ int main() {
 
     int product=1;
 vector<int> vec={2,3,4,10};
@@ -79,6 +63,27 @@ for(int i:ans){
 
     return 0;
 }
+
+
+// linear search in array
+void ls(int arr[],int tar){
+    bool ex=false;
+    for(int i=0;i<7;i++){
+        if (arr[i] == tar) {
+            ex=true;
+            break;
+        }
+       
+        
+    }
+    if(ex) cout<<"FOUND AT ";
+    else cout<< "not found";
+    
+
+    
+}
+
+
 
 int KDalgo(int arr[],int n ){
     int curSum=0;
@@ -106,6 +111,7 @@ int main() {
     int n;
 
     cout<<KDalgo(arr,7);
+    ls(arr,24);
 
 
 
