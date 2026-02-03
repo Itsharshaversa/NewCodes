@@ -72,8 +72,8 @@ int main() {
     //         cout<<vec[j][i]<<" ";
     //     }
     //     cout<<endl;
-    // }
-        
+    // 
+    
 
 
 
