@@ -71,3 +71,42 @@ int main() {
 
     return 0;
 }
+
+
+
+// Online C++ compiler to run C++ program online
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    // int price =100;
+    // int disc = price * 1/10;
+    // cout<<disc;
+    
+    
+    vector<int>vec = {2,3,4,9};
+    cout<<vec.size()<<endl;
+    
+    vec.pop_back();
+    vec.pop_back();
+    vec.pop_back();
+    cout<<vec.size()<<endl;
+    vec.pop_back();
+    cout<<vec.size()<<endl;
+        // int n;
+//     cin>>n;
+//   vector<int> vec(n);
+   
+//   for(int i =0;i<vec.size();i++){
+//       cin >>vec[i];
+       
+//   }
+   
+//   for(int val:vec){
+//       cout<<val<<" ";
+//   }
+    
+
+
+    return 0;
+}
