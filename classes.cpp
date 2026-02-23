@@ -33,15 +33,51 @@ class Product{
     
     // parameterised constructor for taking object values as input 
     // and declaring values direct 
-    Product(string n , float p, int wt, string bbf){
-        name =n;
-        price=p;
-        weight =wt;
-        best_before = bbf;
-        
+    Product(string name  , float price , int wt, string bbf){
+        // name =n;
+        // price=p;
+        // weight =wt;
+        // best_before = bbf; 
+        this -> name = name;
+        this -> price = price;  
+        this -> weight = wt;
+        this -> best_before = bbf;
+
     }
 };
 
+
+class Student{
+    public:
+    string name;
+    int age;
+    int year;
+    
+    
+    Student(string name, int age, int year){
+        this->name=name;
+        this->age=age;
+        this->year=year;
+        
+    }
+    
+    Student(){
+        cout<<"hello sathio "<<endl;
+        name = "ram";
+        age=12;
+        year=7;
+    //   cout<<name;
+    }
+    
+    
+    
+    void display(){
+        cout<<name<<endl;
+         cout<<age<<endl;
+          cout<<year<<endl;
+        
+    }
+};
 
 int main() {
     // object creation
@@ -87,9 +123,81 @@ int main() {
     cout<<p1.price<<"/-"<<endl;
     cout<<p1.best_before<<endl;
     
+       
+
+
+
+
+    // student
+
+
+
+
+    Student S1("Harshit", 21,3);
+   
+   S1.display();
+   Student S2;
+
+
+
+      Student S2(S1);
+
+
+
+    //   cpy constructor
     
+   S2.display();
     
     
 
     return 0;
 }
+
+
+
+// // Online C++ compiler to run C++ program online
+// #include <bits/stdc++.h>
+// using namespace std;
+// class Student{
+//     public:
+//     string name;
+//     int age;
+//     int year;
+    
+    
+//     Student(string name, int age, int year){
+//         this->name=name;
+//         this->age=age;
+//         this->year=year;
+        
+//     }
+    
+//     // Student(){
+//     //     cout<<"hello sathio "<<endl;
+//     //     name = "ram";
+//     //     age=12;
+//     //     year=7;
+//     //   cout<<name;
+//     // }
+    
+    
+    
+//     void display(){
+//         cout<<name<<endl;
+//          cout<<age<<endl;
+//           cout<<year<<endl;
+        
+//     }
+// };
+
+
+// int main() {
+//    Student S1("Harshit", 21,3);
+   
+//    S1.display();
+//    Student S2(S1);
+//    S2.display();
+   
+
+//     return 0;
+// }
