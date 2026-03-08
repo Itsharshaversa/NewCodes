@@ -238,3 +238,8 @@ int main() {
 // 2 -> 3 -> NULL
 // 2 -> 3 -> 7 -> NULL
 // found at 2
+
+
+// 
+// TC for push_front, push_back, pop_front, pop_back, insert, searchinll is O(n) in worst case and O(1) in best case. print function has a time complexity of O(n).             
+
