@@ -1,9 +1,10 @@
-git status sirf unko dekhta jo cimmited ni  jo commit hogai unka ussekoi mtlb ni h ua sirf unka btaega jo comiit hone ke baad chang e ki gai h 
+git status":"
+ sirf unko dekhta jo cimmited ni  jo commit hogai unka ussekoi mtlb ni h ua sirf unka btaega jo comiit hone ke baad chang e ki gai h 
 
 
 
-git log btat saare commit historygit 
-git lig btyega sab commits ki histroy git log --one line  git 
+git log:::: btat saare commit historygit 
+git lig::::::; btyega sab commits ki histroy git log --one line  git 
 chalo bhaiya ab krte h branching pr thodi si baa t to bhiya baat aisee h h ki ek hai mani project aur kal hamne hire kia ek nya dev uspr ab hame ni pta vo code likh kr kse gltiya krega to hm usse main code ki jagah ke branch dedte h aur baad me agar unne code likha usme lines inc krke aur sab sai h to merge krdete h ham usse ab 
 tarika h git branch _____________ koi bhi menagiful naam 
 git branch 
