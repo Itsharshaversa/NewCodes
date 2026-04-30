@@ -10,7 +10,6 @@ void fun(){
 
 // macros are used to define a fixed value we can use them as an object such as pi and we can use them as an single line executed functions:
 
-
 int main() {
     cout<<Mul(2,3,4)<<endl;
     

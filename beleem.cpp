@@ -31,7 +31,6 @@ int main() {
             }
         }
     }
-
     // Step 2: Check for negative weight cycle
     for (auto &edge : edges) {
         if (dist[edge.u] != INF &&

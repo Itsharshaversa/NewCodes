@@ -1,8 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-
-
 // product of arr except itself 
 int Prod_of_arr_except_self(int arr[],int n){
     int pro=1;
@@ -64,7 +62,6 @@ for(int i:ans){
     return 0;
 }
 
-
 // linear search in array
 void ls(int arr[],int tar){
     bool ex=false;
@@ -82,8 +79,6 @@ void ls(int arr[],int tar){
 
     
 }
-
-
 
 int KDalgo(int arr[],int n ){
     int curSum=0;
